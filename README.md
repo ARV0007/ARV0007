@@ -1,30 +1,77 @@
-# Hi, I'm Aman Raj Verma
+<div align="center">
 
-### Backend systems · Distributed applications · AI agents
+# Aman Raj Verma
 
-I build backend systems and AI applications with **Java, Spring Boot, and Python**. My projects explore reliable payments, event-driven systems, and agents that work with real tools.
+**Backend systems · Distributed applications · AI agents**
 
-## Featured projects
+Building with Java, Spring Boot, and Python.
 
-| Project | What it does | Engineering focus |
-| --- | --- | --- |
-| **[ForgeFlow](https://github.com/ARV0007/forgeflow)** | Turns plain-English requests into working apps, with live previews and conversational edits. | Build validation and repair loops, hybrid code search, version history, and streaming responses. |
-| **[Transakt](https://github.com/ARV0007/transakt)** | A payment gateway project with merchant APIs and ledger accounting. | Idempotent requests, payment reconciliation, transactional outbox, and Kafka webhooks. |
-| **[Transakt Sentinel](https://github.com/ARV0007/transakt-sentinel)** | Scores payment risk and investigates flagged cases with an AI agent, with a human analyst making the final decision. | ML scoring, LangGraph workflows, MCP tools, durable checkpoints, and observability. |
+[ForgeFlow](https://github.com/ARV0007/forgeflow) · [Transakt](https://github.com/ARV0007/transakt) · [Transakt Sentinel](https://github.com/ARV0007/transakt-sentinel)
 
-## Technologies in my projects
+</div>
 
-- **Backend:** Java, Spring Boot, Spring Security, Python, FastAPI
-- **Data and messaging:** PostgreSQL, Redis, Apache Kafka, pgvector, Qdrant
-- **AI and ML:** LangGraph, LangChain, scikit-learn, retrieval-augmented generation, MCP
-- **Delivery and testing:** Docker, GitHub Actions, Maven, JUnit
-- **Web:** HTML, CSS, JavaScript
+---
 
-## What I care about
+I build applications that connect backend engineering with practical AI. My projects explore payment reliability, event-driven workflows, and agents that use tools, validate their work, and pause for human review.
 
-- Making retries safe and failures understandable.
-- Testing behavior at service and database boundaries.
-- Giving AI systems clear tools, validation checks, and human review where it matters.
-- Documenting design decisions, trade-offs, and known limitations alongside the code.
+## Selected work
 
-Explore the project READMEs for architecture, setup instructions, tests, and implementation notes.
+### ForgeFlow — from a prompt to a working app
+
+An AI app builder with conversational edits, live previews, and version history. The generation loop checks the build and feeds errors back to the agent for repair.
+
+- **Agent workflows:** planning, targeted file edits, review, and visual checks.
+- **Retrieval:** hybrid code search with vector and full-text retrieval.
+- **Platform:** streaming responses, project sharing, and deployment options.
+
+**Built with:** Java · Spring Boot · PostgreSQL · pgvector · Redis · Qdrant
+
+[Explore the code](https://github.com/ARV0007/forgeflow) · [Architecture](https://github.com/ARV0007/forgeflow/blob/main/docs/architecture.md)
+
+### Transakt — payment processing with explicit failure handling
+
+A payment gateway project with merchant APIs and double-entry ledger accounting. Its design addresses duplicate requests, uncertain bank responses, and reliable event delivery.
+
+- **Correctness:** idempotent payment requests and ledger entries.
+- **Recovery:** reconciliation for payments with an unknown outcome.
+- **Events:** a transactional outbox feeding Kafka webhooks with retries and a dead-letter path.
+
+**Built with:** Java · Spring Boot · PostgreSQL · Redis · Apache Kafka
+
+[Explore the code](https://github.com/ARV0007/transakt) · [Design decisions](https://github.com/ARV0007/transakt/blob/main/docs/notes.md)
+
+### Transakt Sentinel — fraud investigation with human review
+
+A companion system that scores payment risk with ML and investigates flagged cases through an AI agent. The agent gathers evidence and recommends an action; a human analyst makes the decision.
+
+- **Risk scoring:** a fast ML model processes payment events.
+- **Investigation:** LangGraph workflows gather evidence through MCP tools.
+- **Operations:** durable checkpoints, replay handling, and monitoring.
+
+**Built with:** Python · FastAPI · LangGraph · scikit-learn · Kafka · Redis
+
+[Explore the code](https://github.com/ARV0007/transakt-sentinel)
+
+## Tools I use
+
+| Area | Technologies |
+| :--- | :--- |
+| Backend | Java, Spring Boot, Spring Security, Python, FastAPI |
+| Data & messaging | PostgreSQL, Redis, Apache Kafka, pgvector, Qdrant |
+| AI & ML | LangGraph, LangChain, scikit-learn, RAG, MCP |
+| Delivery & testing | Docker, GitHub Actions, Maven, JUnit |
+| Web | HTML, CSS, JavaScript |
+
+## How I approach engineering
+
+**Design for failure.** Make retries safe, preserve state, and make errors understandable.
+
+**Test the boundaries.** Check behavior where services, databases, and external systems meet.
+
+**Keep AI accountable.** Use validation checks, evidence, and human review where decisions need it.
+
+**Explain the trade-offs.** Keep architecture notes, setup instructions, and known limitations alongside the code.
+
+---
+
+<sub>Project READMEs include implementation details, tests, and current limitations.</sub>
