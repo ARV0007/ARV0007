@@ -6,7 +6,13 @@
 
 Building with Java, Spring Boot, and Python.
 
-[ForgeFlow](https://github.com/ARV0007/forgeflow) · [Transakt](https://github.com/ARV0007/transakt) · [Transakt Sentinel](https://github.com/ARV0007/transakt-sentinel)
+**Portfolio: [arv0007.github.io](https://arv0007.github.io)** · [Resume](https://arv0007.github.io/resume.pdf) · [LinkedIn](https://www.linkedin.com/in/arv14)
+
+| Project | Live demo | Code |
+| :--- | :--- | :--- |
+| ForgeFlow, AI app builder | [forgeflow-7m08.onrender.com](https://forgeflow-7m08.onrender.com) | [repo](https://github.com/ARV0007/forgeflow) |
+| Transakt, payment gateway | [Try it in your browser](https://arv0007.github.io/transakt/) | [repo](https://github.com/ARV0007/transakt) |
+| Transakt Sentinel, fraud agent | [Replay a recorded run](https://arv0007.github.io/sentinel/) | [repo](https://github.com/ARV0007/transakt-sentinel) |
 
 </div>
 
@@ -26,7 +32,7 @@ An AI app builder with conversational edits, live previews, and version history.
 
 **Built with:** Java · Spring Boot · PostgreSQL · pgvector · Redis · Qdrant
 
-[Explore the code](https://github.com/ARV0007/forgeflow) · [Architecture](https://github.com/ARV0007/forgeflow/blob/main/docs/architecture.md)
+[Open the live app](https://forgeflow-7m08.onrender.com) · [Explore the code](https://github.com/ARV0007/forgeflow) · [Architecture](https://github.com/ARV0007/forgeflow/blob/main/docs/architecture.md)
 
 ### Transakt — payment processing with explicit failure handling
 
@@ -38,7 +44,7 @@ A payment gateway project with merchant APIs and double-entry ledger accounting.
 
 **Built with:** Java · Spring Boot · PostgreSQL · Redis · Apache Kafka
 
-[Explore the code](https://github.com/ARV0007/transakt) · [Design decisions](https://github.com/ARV0007/transakt/blob/main/docs/notes.md)
+[Try it in your browser](https://arv0007.github.io/transakt/) · [Explore the code](https://github.com/ARV0007/transakt) · [Design decisions](https://github.com/ARV0007/transakt/blob/main/docs/notes.md)
 
 ### Transakt Sentinel — fraud investigation with human review
 
@@ -50,7 +56,7 @@ A companion system that scores payment risk with ML and investigates flagged cas
 
 **Built with:** Python · FastAPI · LangGraph · scikit-learn · Kafka · Redis
 
-[Explore the code](https://github.com/ARV0007/transakt-sentinel)
+[Replay a recorded run](https://arv0007.github.io/sentinel/) · [Explore the code](https://github.com/ARV0007/transakt-sentinel)
 
 ## Tools I use
 
